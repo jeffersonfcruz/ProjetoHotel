@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Psico</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- ---------------Inicio da barra de navegação--------------- -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Hotel Psico</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +86,7 @@
     <div class="conteiner-fluid">
         <div class="row">
             <div class="col">
-                <form>
+                <form id="reservas_superior">
                     <label>Faça sua reserva aqui:</label>
                     <Label>Check-In:
                         <input type="date" id="checkin" required>
@@ -96,6 +99,36 @@
             </div>
         </div>
     </div>
-    <script src="js/bootstrap.min.js"></script>
+<!-- ---------------Inicio do Rodapé--------------- -->
+    <div class="card text-center">
+      <div class="card-header fundo">
+        <a href="https://pt-br.facebook.com/" target="_blank">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://twitter.com/" target="_blank">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://www.youtube.com" target="_blank">
+        <i class="bi bi-youtube"></i>
+      </a>
+      </div>
+      <div class="card-body fundo2">
+        <h5 class="card-title">Onde estamos?</h5>
+        <p class="card-text">
+          Rua José de Marias Silva , 652<br>
+          Bairro Jardim Armando da Farinha<br>
+          São Paulo - SP<br>
+          CEP: 03544-555<br>
+          TEL: (11) 87756545<br>
+          Cel: (11) 98771-4500
+        </p>
+        <a href="https://wa.me/11987714500?text=ola" class="btn btn-success"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+<!-- ---------------Fim do Rodapé--------------- -->
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

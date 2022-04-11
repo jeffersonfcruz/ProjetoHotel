@@ -83,7 +83,7 @@
         </button>
       </div>
     <!-- ---------------Fim da Carrossel--------------- -->
-    <div class="conteiner-fluid">
+    <div class="conteiner-fluid fundo-branco">
         <div class="row">
             <div class="col">
                 <form id="reservas_superior">
@@ -97,6 +97,38 @@
                         <input type="submit" id="btnreservar" value="Reservar">                 
                 </form>
             </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>Reservas</h2>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputNome" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="inputNome">
+              </div>
+              <div class="col-md-6">
+                <label for="inputemail" class="form-label">E-Mail</label>
+                <input type="email" class="form-control" id="inputemail">
+              </div>
+<!-- ------------------------------------------- -->
+              <div class="col-4">
+                <label for="inputSuite" class="form-label">Suite</label>
+                <input type="text" class="form-control" id="inputSuite">
+              </div>
+              <div class="col-4">
+                <label for="inputcheckin" class="form-label">Check-In</label>
+                <input type="date" class="form-control" id="inputcheckin">
+              </div>
+              <div class="col-4">
+                <label for="inputcheckout" class="form-label">Check-Out</label>
+                <input type="date" class="form-control" id="inputcheckout">
+              </div>
+<!-- ------------------------------------------- -->
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Reservar</button>
+              </div>
+            </form>
+          </div>
         </div>
     </div>
 <!-- ---------------Inicio do Rodapé--------------- -->

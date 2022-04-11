@@ -22,10 +22,19 @@
   color: #fff;
 }
 .fundo2 {
-    background-color: #333;
-    color: #fff;
-  }
-  .fundo2 a {
-    text-decoration: none;
-    font-size: 15pt;
-    color: #fff;
+  background-color: #333;
+  color: #fff;
+}
+.fundo2 a {
+  text-decoration: none;
+  font-size: 15pt;
+  color: #fff;
+}
+.fundo-branco {
+  background-color: #fff;
+}
+body {
+  background-image: url("../img/hotel1.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
